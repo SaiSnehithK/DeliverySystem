@@ -18,6 +18,7 @@ public class HuntMain extends Menu_Card
 		Pizza_hut ph=new Pizza_hut();
 		Dominos dm=new Dominos();
        Papa_johns pj=new Papa_johns();
+       Thank_you tk=new Thank_you();
        Taxing tx=new Taxing();
        Locating lc=new Locating();
 		int size;
@@ -109,6 +110,7 @@ public class HuntMain extends Menu_Card
 	   {
      System.out.println ("No taxing required");
 	   }
+	   tk.thank();
 	System.out.println("----------------------------------------------------------------------------------------------");
 		
 	}
